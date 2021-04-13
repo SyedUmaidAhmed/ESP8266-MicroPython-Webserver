@@ -28,4 +28,4 @@ while station.isconnected() == False:
 print('Connection successful')
 print(station.ifconfig())
 
-led = Pin(2, Pin.OUT)
+led = Pin(16, Pin.OUT)
